@@ -42,6 +42,7 @@ header {
   border: none;
   font-weight: bold;
   font-size: 1rem;
+  cursor: pointer;
 }
 #inp-btn:hover {
   background-color: green;
@@ -62,8 +63,24 @@ li {
   padding: 20px;
   background-color: rgba(128, 128, 128, 0.158);
   font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 li:hover {
   border-left: green 15px solid;
   transition: 0.5s ease-in-out;
+}
+.delete {
+  padding: 15px 25px;
+  color: white;
+  background-color: grey;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.delete:hover {
+  background-color: green;
+  transition: 0.2s;
 }
