@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="./todo.css" />
   </head>
   <body>
-    <header><h1>THINGS TO DO TODAY!</h1></header>
+    <header>
+      <h1 id="head-text">THINGS TO DO TODAY!</h1>
+      <button id="toggle">Dark Theme</button>
+    </header>
     <form action="" class="form-group">
       <input
         type="text"
@@ -20,6 +23,9 @@
     </form>
 
     <div class="todos">
+      <h3 class="heading" align="center" style="color: grey; padding: 10px">
+        TASKS
+      </h3>
       <ul>
         <li>
           <span class="task">practice HTML and CSS</span>
@@ -38,14 +44,14 @@
       </ul>
     </div>
 
-    <form action="" class="form-group">
+    <form class="form-group">
       <input
         type="text"
         name="add-todo"
         id="add-todo"
         placeholder="...add next todo"
       />
-      <input type="button" value="Add" id="inp-btn" />
+      <button id="inp-btn" type="submit">Add</button>
     </form>
 
     <script src="./todo.js"></script>

@@ -11,6 +11,16 @@ header {
   color: white;
   padding: 20px;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  margin: auto;
+}
+#toggle {
+  width: 70px;
+  height: 40px;
+  text-align: center;
 }
 .form-group {
   border: hidden;
@@ -83,4 +93,8 @@ li:hover {
 .delete:hover {
   background-color: green;
   transition: 0.2s;
+}
+.darkMode {
+  background-color: rgb(11, 19, 19);
+  color: aliceblue;
 }
